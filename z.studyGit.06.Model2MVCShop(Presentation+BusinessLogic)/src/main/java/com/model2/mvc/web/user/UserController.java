@@ -49,7 +49,8 @@ public class UserController {
 	public String addUserView() throws Exception {
 
 		System.out.println("/addUserView.do");
-		
+		System.out.println("/addUserView.do");//test
+
 		return "redirect:/user/addUserView.jsp";
 	}
 	
